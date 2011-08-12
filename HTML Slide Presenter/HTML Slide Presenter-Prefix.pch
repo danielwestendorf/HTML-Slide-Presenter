@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'HTML Slide Presenter' target in the 'HTML Slide Presenter' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

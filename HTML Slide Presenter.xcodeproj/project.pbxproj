@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8213354513F18E8100F673FB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213354413F18E8100F673FB /* Cocoa.framework */; };
+		8213354713F18E8100F673FB /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213354613F18E8100F673FB /* MacRuby.framework */; };
+		8213355013F18E8100F673FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8213354E13F18E8100F673FB /* InfoPlist.strings */; };
+		8213355213F18E8100F673FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8213355113F18E8100F673FB /* main.m */; };
+		8213355713F18E8100F673FB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8213355513F18E8100F673FB /* MainMenu.xib */; };
+		8213355A13F18E8100F673FB /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 8213355913F18E8100F673FB /* rb_main.rb */; };
+		8213355C13F18E8100F673FB /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 8213355B13F18E8100F673FB /* AppDelegate.rb */; };
+		8213356613F190EC00F673FB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213356513F190EC00F673FB /* WebKit.framework */; };
+		8213356A13F1937900F673FB /* SimpleModal.rb in Resources */ = {isa = PBXBuildFile; fileRef = 8213356913F1937900F673FB /* SimpleModal.rb */; };
+		8213357513F1BBB200F673FB /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213357413F1BBB200F673FB /* Carbon.framework */; };
+		8213357713F1BBB800F673FB /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213357613F1BBB800F673FB /* IOKit.framework */; };
+		8213357A13F1BF9B00F673FB /* HSPRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 8213357913F1BF9B00F673FB /* HSPRemote.m */; };
+		825CFA7D13F59973003B80ED /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 825CFA7C13F59973003B80ED /* README.markdown */; };
+		82B828C913F1C53300F49E43 /* HIDRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B828C813F1C53300F49E43 /* HIDRemote.m */; };
+		82B828CC13F2E34100F49E43 /* HSP.icns in Resources */ = {isa = PBXBuildFile; fileRef = 82B828CB13F2E34100F49E43 /* HSP.icns */; };
+		82CED5FE13F58CB60088CB0D /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 82CED5FD13F58CB60088CB0D /* License.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8213354913F18E8100F673FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8213353713F18E8100F673FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8213353F13F18E8100F673FB;
+			remoteInfo = "HTML Slide Presenter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8213354013F18E8100F673FB /* HTML Slide Presenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HTML Slide Presenter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8213354413F18E8100F673FB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8213354613F18E8100F673FB /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		8213354D13F18E8100F673FB /* HTML Slide Presenter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HTML Slide Presenter-Info.plist"; sourceTree = "<group>"; };
+		8213354F13F18E8100F673FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8213355113F18E8100F673FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8213355313F18E8100F673FB /* HTML Slide Presenter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HTML Slide Presenter-Prefix.pch"; sourceTree = "<group>"; };
+		8213355613F18E8100F673FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8213355913F18E8100F673FB /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		8213355B13F18E8100F673FB /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		8213356513F190EC00F673FB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		8213356913F1937900F673FB /* SimpleModal.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SimpleModal.rb; sourceTree = "<group>"; };
+		8213357413F1BBB200F673FB /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		8213357613F1BBB800F673FB /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		8213357813F1BF9B00F673FB /* HSPRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPRemote.h; sourceTree = "<group>"; };
+		8213357913F1BF9B00F673FB /* HSPRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPRemote.m; sourceTree = "<group>"; };
+		825CFA7C13F59973003B80ED /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		82B828C713F1C53300F49E43 /* HIDRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDRemote.h; sourceTree = "<group>"; };
+		82B828C813F1C53300F49E43 /* HIDRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDRemote.m; sourceTree = "<group>"; };
+		82B828CB13F2E34100F49E43 /* HSP.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = HSP.icns; sourceTree = "<group>"; };
+		82CED5FD13F58CB60088CB0D /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8213353D13F18E8100F673FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8213357713F1BBB800F673FB /* IOKit.framework in Frameworks */,
+				8213357513F1BBB200F673FB /* Carbon.framework in Frameworks */,
+				8213356613F190EC00F673FB /* WebKit.framework in Frameworks */,
+				8213354513F18E8100F673FB /* Cocoa.framework in Frameworks */,
+				8213354713F18E8100F673FB /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8213353513F18E8100F673FB = {
+			isa = PBXGroup;
+			children = (
+				8213354B13F18E8100F673FB /* HTML Slide Presenter */,
+				8213354313F18E8100F673FB /* Frameworks */,
+				8213354113F18E8100F673FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8213354113F18E8100F673FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8213354013F18E8100F673FB /* HTML Slide Presenter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8213354313F18E8100F673FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8213357613F1BBB800F673FB /* IOKit.framework */,
+				8213357413F1BBB200F673FB /* Carbon.framework */,
+				8213356513F190EC00F673FB /* WebKit.framework */,
+				8213354413F18E8100F673FB /* Cocoa.framework */,
+				8213354613F18E8100F673FB /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8213354B13F18E8100F673FB /* HTML Slide Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8213356813F1934D00F673FB /* Support */,
+				8213356713F1934000F673FB /* Delegates */,
+				8213355413F18E8100F673FB /* Resources */,
+				8213355813F18E8100F673FB /* Other Sources */,
+				8213354C13F18E8100F673FB /* Supporting Files */,
+				82CED5FD13F58CB60088CB0D /* License.txt */,
+				825CFA7C13F59973003B80ED /* README.markdown */,
+			);
+			path = "HTML Slide Presenter";
+			sourceTree = "<group>";
+		};
+		8213354C13F18E8100F673FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8213354D13F18E8100F673FB /* HTML Slide Presenter-Info.plist */,
+				8213354E13F18E8100F673FB /* InfoPlist.strings */,
+				8213355113F18E8100F673FB /* main.m */,
+				8213355313F18E8100F673FB /* HTML Slide Presenter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8213355413F18E8100F673FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				82B828CB13F2E34100F49E43 /* HSP.icns */,
+				8213355513F18E8100F673FB /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8213355813F18E8100F673FB /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8213355913F18E8100F673FB /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		8213356713F1934000F673FB /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				8213355B13F18E8100F673FB /* AppDelegate.rb */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		8213356813F1934D00F673FB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				82B828C713F1C53300F49E43 /* HIDRemote.h */,
+				82B828C813F1C53300F49E43 /* HIDRemote.m */,
+				8213356913F1937900F673FB /* SimpleModal.rb */,
+				8213357813F1BF9B00F673FB /* HSPRemote.h */,
+				8213357913F1BF9B00F673FB /* HSPRemote.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		8213354813F18E8100F673FB /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 8213356213F18E8100F673FB /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			buildWorkingDirectory = "";
+			dependencies = (
+				8213354A13F18E8100F673FB /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		8213353F13F18E8100F673FB /* HTML Slide Presenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8213355F13F18E8100F673FB /* Build configuration list for PBXNativeTarget "HTML Slide Presenter" */;
+			buildPhases = (
+				8213353C13F18E8100F673FB /* Sources */,
+				8213353D13F18E8100F673FB /* Frameworks */,
+				8213353E13F18E8100F673FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HTML Slide Presenter";
+			productName = "HTML Slide Presenter";
+			productReference = 8213354013F18E8100F673FB /* HTML Slide Presenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8213353713F18E8100F673FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Daniel Westendorf";
+			};
+			buildConfigurationList = 8213353A13F18E8100F673FB /* Build configuration list for PBXProject "HTML Slide Presenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8213353513F18E8100F673FB;
+			productRefGroup = 8213354113F18E8100F673FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8213353F13F18E8100F673FB /* HTML Slide Presenter */,
+				8213354813F18E8100F673FB /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8213353E13F18E8100F673FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8213355013F18E8100F673FB /* InfoPlist.strings in Resources */,
+				8213355713F18E8100F673FB /* MainMenu.xib in Resources */,
+				8213355A13F18E8100F673FB /* rb_main.rb in Resources */,
+				8213355C13F18E8100F673FB /* AppDelegate.rb in Resources */,
+				8213356A13F1937900F673FB /* SimpleModal.rb in Resources */,
+				82B828CC13F2E34100F49E43 /* HSP.icns in Resources */,
+				82CED5FE13F58CB60088CB0D /* License.txt in Resources */,
+				825CFA7D13F59973003B80ED /* README.markdown in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8213353C13F18E8100F673FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8213355213F18E8100F673FB /* main.m in Sources */,
+				8213357A13F1BF9B00F673FB /* HSPRemote.m in Sources */,
+				82B828C913F1C53300F49E43 /* HIDRemote.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8213354A13F18E8100F673FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8213353F13F18E8100F673FB /* HTML Slide Presenter */;
+			targetProxy = 8213354913F18E8100F673FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8213354E13F18E8100F673FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8213354F13F18E8100F673FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8213355513F18E8100F673FB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8213355613F18E8100F673FB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8213355D13F18E8100F673FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		8213355E13F18E8100F673FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = x86_64;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		8213356013F18E8100F673FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTML Slide Presenter/HTML Slide Presenter-Prefix.pch";
+				INFOPLIST_FILE = "HTML Slide Presenter/HTML Slide Presenter-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8213356113F18E8100F673FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTML Slide Presenter/HTML Slide Presenter-Prefix.pch";
+				INFOPLIST_FILE = "HTML Slide Presenter/HTML Slide Presenter-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8213356313F18E8100F673FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		8213356413F18E8100F673FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8213353A13F18E8100F673FB /* Build configuration list for PBXProject "HTML Slide Presenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8213355D13F18E8100F673FB /* Debug */,
+				8213355E13F18E8100F673FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8213355F13F18E8100F673FB /* Build configuration list for PBXNativeTarget "HTML Slide Presenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8213356013F18E8100F673FB /* Debug */,
+				8213356113F18E8100F673FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8213356213F18E8100F673FB /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8213356313F18E8100F673FB /* Debug */,
+				8213356413F18E8100F673FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8213353713F18E8100F673FB /* Project object */;
+}
