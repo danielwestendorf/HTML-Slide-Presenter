@@ -4,14 +4,16 @@ Want to distribute your presentation in HTML format, but don't want to present t
 
 HTML Slide Presenter for the win! 
 
-Features: 
-- Display your HTML slideshow in full screen (OSX 10.7) 
-- Control the next, previous, and full screen toggle with your Apple Remote 
-- Mouse cursor is automatically hidden 
-- Show slides from your local file system or via a web url 
+Features:
+- Display your HTML slideshow in full screen (OSX 10.7)
+- Control the next, previous, and full screen toggle with your Apple Remote
+- Mouse cursor is automatically hidden
+- Show slides from your local file system or via a web url
 - Works on OSX 10.6, sans full screen support
 
 ![Alt HTML Slide Presenter](http://www.coon-and-friends.com/images/html-slide-presenter/screen1.png)
+
+<a href="http://itunes.apple.com/us/app/html-slide-presenter/id456995240?ls=1&mt=12" target="itunes_store"><img src="http://ax.phobos.apple.com.edgesuite.net/images/web/linkmaker/badge_macappstore-lrg.gif" alt="Thumper - Daniel Westendorf" style="border: 0;"/></a>
 
 License
 ----------
