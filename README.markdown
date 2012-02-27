@@ -15,6 +15,8 @@ Features:
 
 <a href="http://itunes.apple.com/us/app/html-slide-presenter/id456995240?ls=1&mt=12" target="itunes_store"><img src="http://ax.phobos.apple.com.edgesuite.net/images/web/linkmaker/badge_macappstore-lrg.gif" alt="Thumper - Daniel Westendorf" style="border: 0;"/></a>
 
+[![endorse](http://api.coderwall.com/danielwestendorf/endorsecount.png)](http://coderwall.com/danielwestendorf)
+
 License
 ----------
 Copyright (c) 2011 Daniel Westendorf
